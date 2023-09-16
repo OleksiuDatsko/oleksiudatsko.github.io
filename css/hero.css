@@ -8,7 +8,6 @@ section.hero {
     background-image: url("../images/element.svg");
     background-repeat: no-repeat;
     background-position: -4% 11%;
-
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +26,10 @@ section.hero {
 
 .paragraph.hero {
     font-size: 1.2rem;
-    line-height: 32px;
+}
+
+.paragraph.hero {
+    font-size: 21px;
 }
 
 .hero__image {

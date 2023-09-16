@@ -83,6 +83,7 @@ ul {
     display: flex;
     font-size: 14px;
     align-items: baseline
+
 }
 
 @media screen and (max-width: 1240px) {

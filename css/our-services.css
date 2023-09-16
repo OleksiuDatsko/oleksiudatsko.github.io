@@ -64,11 +64,13 @@ section.our-services {
     font-size: 1rem;
 }
 
+
 .our-services__service-item {
     padding-left: 45px;
     padding-right: 45px;
     margin: 0;
 }
+
 
 @media screen and (max-width: 1240px) {
     .our-services__services {
