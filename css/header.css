@@ -7,7 +7,43 @@
 .header__nav-item {
     display: flex;
     margin-right: 40px;
-    color:#1F1534;
+    color: #1F1534;
     font-size: 18px;
     font-weight: 400;
+}
+
+.header__hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1240px) {
+    .header__hamburger {
+        display: flex;
+        height: 49px;
+        width: auto;
+    }
+
+    .header__hamburger:active {
+        height: 48px;
+        width: auto;
+    }
+
+    .conteiner.header {
+        position: fixed;
+        background-color: #FFF;
+        top: 0;
+        width: 100%;
+    }
+
+    .linear-sections.header {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 3%;
+    }
+
+    .linear-sections .header__nav-item {
+        margin-right: 0;
+        padding-top: 10vh;
+        flex: 1;
+    }
 }

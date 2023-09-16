@@ -8,6 +8,8 @@ section.hero {
     background-image: url("../images/element.svg");
     background-repeat: no-repeat;
     background-position: -4% 11%;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero__text {
@@ -19,15 +21,36 @@ section.hero {
 }
 
 .title.hero {
-    font-size: 48px;
+    font-size: 3rem;
+}
+
+.paragraph.hero {
+    font-size: 1.2rem;
 }
 
 .paragraph.hero {
     font-size: 21px;
-    line-height: 32px;
 }
 
 .hero__image {
     width: 639px;
     height: 598px;
+}
+
+@media screen and (max-width: 1240px) { 
+    .hero   {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .hero__text {
+        padding: 0;
+        padding-top: 100px;
+    }
+
+    .hero__image {
+        width: 90%;
+    }
+
 }
